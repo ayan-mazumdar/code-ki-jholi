@@ -1,4 +1,4 @@
-//let score = '33'
+  //let score = '33'
 //let score = '33abc'
 //let score = null
 
@@ -42,3 +42,7 @@ let str3 = str1 + str2
 // console.log("1"+ 2 + 3);
 // console.log(1 + 2 + "2");
 
+// console.log(true);
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
