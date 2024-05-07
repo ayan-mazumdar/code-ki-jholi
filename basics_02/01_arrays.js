@@ -49,6 +49,22 @@
 const marvel = ["thor", "hulk", "ironman"]
 const dc = ["superman", "batman", "flash"] 
 
-marvel.push(dc)
-console.log(marvel); // takes dc as a single element an it becomes a array in a array
-console.log(marvel[3][1]);
+// marvel.push(dc)
+// console.log(marvel); // takes dc as a single element an it becomes a array in a array
+// console.log(marvel[3][1]);
+
+// const allhero = marvel.concat(dc) // joins two or more arrays and prints a new array
+// console.log(allhero);
+
+const newhero = [...marvel,...dc]
+// console.log(newhero);
+
+
+const anotherArr = [1,2,3,[4,5,6,],7,[6,7,[4,5]]]
+const new_anotherArr = anotherArr.flat(Infinity)
+// console.log(new_anotherArr);
+
+
+// console.log(Array .isArray("ayan"))
+// console.log(Array.from("ayan"));
+// console.log(Array.from({name: "ayan"})); // interesting
