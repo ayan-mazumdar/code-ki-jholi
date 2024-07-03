@@ -4,7 +4,11 @@ let myDate = new Date()
 
 // console.log(myDate.toString());
 // console.log(myDate.toDateString());
-// console.log(myDate.toLocaleTimeString());
+console.log(myDate.toLocaleTimeString());
+console.log(myDate.toJSON());
+console.log(myDate.toLocaleString());
+
+
 // console.log(typeof myDate);
 
 
@@ -17,5 +21,5 @@ let myDate = new Date()
 
 let timestamp = Date.now()
 
-console.log(timestamp);
+// console.log(timestamp);
 // console.log(timestamp.getTime( ));
