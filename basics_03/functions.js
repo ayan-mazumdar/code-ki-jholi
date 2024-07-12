@@ -39,22 +39,54 @@
 // }
 // console.log(loginUserMessage("ayan") )
 
-function loginUserMessage(username){
-    if (username === undefined){
-        console.log("Please enter a username")
-        return
+// function loginUserMessage(username){
+//     if (username === undefined){
+//         console.log("Please enter a username")
+//         return
 
-    }
-    return `${username} just logged in `
+//     }
+//     return `${username} just logged in `
+// }
+// console.log(loginUserMessage() )
+
+// function loginUserMessage(username){
+//     if (!username){
+//         console.log("Please enter a username")
+//         return
+
+//     }
+//     return `${username} just logged in `
+// }
+// console.log(loginUserMessage("ayan") )
+
+// fuction for a shopping cart scenario
+
+// function calculateCartPrice(...num1) {
+//     return num1
+    
+// }
+
+// console.log(calculateCartPrice(200,400,500));
+
+// const user = {
+//     username: "ayan",
+// //     price: 199
+// // }
+
+// function handleObject(anyobject){
+//     console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+// }
+
+// // handleObject(user)
+// handleObject({
+//     username: "sam",
+//     price: 300
+// })
+
+
+const myNewArray = [200,300,400,500,600]
+
+function returnSecondValue(getArray){
+    return getArray[1]
 }
-console.log(loginUserMessage() )
-
-function loginUserMessage(username){
-    if (!username){
-        console.log("Please enter a username")
-        return
-
-    }
-    return `${username} just logged in `
-}
-console.log(loginUserMessage("ayan") )
+console.log(returnSecondValue(myNewArray));
