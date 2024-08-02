@@ -12,4 +12,3 @@
 // IIFE SYNTAX
 // ()() first parenthesis contains the function definition and the 2nd one is the execution 
 
-()
